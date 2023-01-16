@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="_1st_Position_Badge" data-name="1st Position Badge" transform="translate(-1007 -4017)">
+    <g id="Group_93" data-name="Group 93" transform="translate(548.411 3646.554)">
+      <path id="Path_509" data-name="Path 509" d="M505.647,377.3l5.737-6.856,7.32,5.211,7.227-5.211,5.635,6.856,8.375-3.24,3.944,7.74,9.058-.969,1.912,8.743,8.742.446v9.6l8.367,2.4-2.664,8.743,7.854,4.834-4.815,8.194,6.249,6.343-6.249,6.686,4.713,7.714-7.718,5.211,2.561,8.469-8.264,3.086-.068,8.846-8.776.823-1.912,9.052-8.913-1.68-4.166,8.331-8.128-3.669-5.737,7.44-7.227-5.28-7.22,5.28-5.837-7.289-8.216,3.625-4.1-8.329-8.881,1.47-2.049-8.917-8.686-.98V461.4l-8.3-3.135,2.635-8.525-7.9-5.1,4.782-7.741-6.344-6.859,6.539-6.075-4.977-8.427,7.9-4.605-2.635-8.917,8.3-3.037V390.17l8.783-.392,2.049-9.015,8.783,1.078L497.626,374Z" transform="translate(0 0)" fill="#ffd233"/>
+      <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="39.317" cy="39.475" rx="39.317" ry="39.475" transform="translate(479.386 390.593)" fill="#f3be00"/>
+      <path id="Path_510" data-name="Path 510" d="M553.752,409.7a39.416,39.416,0,0,0-55.106,55.327A39.415,39.415,0,1,1,553.752,409.7Z" transform="translate(-3.763 -3.55)" fill="#eeb213"/>
+    </g>
+    <text id="_1st" data-name="1st" transform="translate(1052 4096)" fill="#fed233" font-size="48" font-family="BebasNeuePro-Bold, Bebas Neue Pro" font-weight="700" letter-spacing="-0.007em"><tspan x="0" y="0">1</tspan><tspan y="0" font-size="27.998" baseline-shift="15.99839973449707">st</tspan></text>
+  </g>
+</svg>

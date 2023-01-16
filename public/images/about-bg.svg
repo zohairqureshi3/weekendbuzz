@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1094" viewBox="0 0 1920 1094">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="1920" height="1094" transform="translate(0 1680)" fill="#fec12d"/>
+    </clipPath>
+  </defs>
+  <g id="Background" transform="translate(0 -1680)" clip-path="url(#clip-path)">
+    <path id="Ellipse_29_-_Outline" data-name="Ellipse 29 - Outline" d="M1495.5,800C1112,800,800,1112,800,1495.5S1112,2191,1495.5,2191,2191,1879,2191,1495.5,1879,800,1495.5,800m0-800C2321.442,0,2991,669.558,2991,1495.5S2321.442,2991,1495.5,2991,0,2321.442,0,1495.5,669.558,0,1495.5,0Z" transform="translate(-166 1680)" fill="#fec430"/>
+  </g>
+</svg>

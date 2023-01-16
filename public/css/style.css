@@ -1,0 +1,1443 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta DEMO';
+    src: url('../fonts/Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('../fonts/Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.container-width{
+    max-width: 100%;
+    padding: 0px 100px;
+}
+.arhamsoft-logo {
+    position: absolute;
+    z-index: 1;
+}
+h1{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold;
+    font-size: 90px;
+    color: #1E0A53;
+}
+h2{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold;
+    font-size: 71px;
+    color: #44D7B1;
+}
+h3{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+}
+h4{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+h5{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+}
+button{
+    font-family: 'Recoleta DEMO';
+    font-weight: bold !important;
+    font-size: 22px !important;
+    border-radius: 50px !important;
+    padding: 7px 25px !important;
+}
+/* header */
+.navbar-bg{
+    background-color: transparent;
+    padding-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+.header-list .nav-link {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white !important;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.header-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.btn-transparent:hover,.btn-transparent:focus{
+    background-color: white;
+    border: 2px solid white;
+    color: #1E0A53;
+}
+.btn-white{
+    background-color: white;
+    border: 2px solid white;
+    color: #1E0A53;
+}
+.btn-white:hover,.btn-white:focus{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+/* main */
+.main{
+    background-image: url('../images/main-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    padding-bottom: 370px;
+}
+.main-content{
+    padding-top: 450px;
+}
+.main-content p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: #1E0A53;
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px 0px;
+    width: 680px;
+    margin: 0px auto;
+    max-width: 100%;
+}
+.btn-yellow{
+    background-color: #FEC430;
+    color: #1E0A53;
+    border: unset;
+    box-shadow: 0px 5px 50px #FEC43080;
+    margin-top: 55px;
+    padding: 7px 35px !important;
+}
+.btn-yellow:hover,.btn-yellow:focus{
+    background-color: white;
+    box-shadow: 0px 5px 50px #FEC43080;
+    color: #1E0A53;
+}
+.section-small-padding{
+    padding-top: 330px;
+}
+.main-two-bg{
+    background-color: #8725FB;
+    border-radius: 60px;
+    border: 10px solid white;
+    padding: 50px 70px;
+    padding-right: 0px;
+}
+.main-two-content {
+    height: 100%;
+    border-right: 2px solid white;
+    padding-top: 20px;
+}
+.col-padding{
+    padding-right: 85px;
+}
+.main-two-content p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    width: 340px;
+    max-width: 100%;
+}
+.main-icon{
+    background-color: #fec430;
+    border-radius: 50%;
+    width: 29%;
+}
+.main-two-content-separate h6{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.main-two-content-separate p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    width: 210px;
+    max-width: 100%;
+}
+/* about */
+.about{
+    background-image: url('../images/about-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -230px;
+    padding-bottom: 135px;
+}
+.about-area{
+    position: relative;
+}
+.about-star-image img{
+    position: absolute;
+    top: -90px;
+    right: 170px;
+}
+.about-content{
+    position: relative;
+}
+.about-lines img{
+    position: absolute;
+    bottom: 17px;
+    right: 0px;
+}
+.about-triangles img{
+    position: absolute;
+    bottom: -270px;
+    left: 110px;
+}
+.about-circle img{
+    position: absolute;
+    bottom: -160px;
+    right: 180px;
+}
+.about-content p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 26px;
+    color: #1E0A53;
+    margin-top: 50px;
+    width: 788px;
+    max-width: 100%;
+}
+.btn-blue{
+    background-color: #8725FB;
+    color: white;
+    border: unset;
+    box-shadow: 0px 5px 50px #B96FF180;
+    margin-top: 55px;
+    padding: 7px 35px !important;
+}
+.btn-blue:hover,.btn-yellow:focus{
+    background-color: white;
+    color: #8725FB;
+    box-shadow: 0px 5px 50px #B96FF180;
+}
+/* practice */
+.practice{
+    background-image: url('../images/practice-bg.svg');
+    padding-top: 200px;
+    padding-bottom: 140px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -70px;
+    position: relative;
+    z-index: 1;
+}
+.practice-back-heading h1{
+    font-size: 180px;
+    color: #1E0A53;
+    opacity: 0.06;
+    position: absolute;
+    top: 95px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    white-space: nowrap;
+}
+.practice-content {
+    width: 703px;
+    max-width: 100%;
+}
+.practice-italic{
+    font-size: 26px !important;
+    color: #1E0A53 !important;
+    font-family: 'Poppins';
+    font-weight: normal !important;
+    font-style: italic !important;
+    margin: 35px 0px;
+}
+.practice-content p{
+    font-size: 26px;
+    color: #FFDEE3;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.practice-star-image img{
+    position: absolute;
+    left: 46%;
+    bottom: 130px;
+}
+/* performers */
+.performers{
+    background-image: url('../images/performers-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 190px 0px 90px;
+    margin-top: -70px;
+}
+.performers-heading h4{
+    color: #1E0A53 !important;
+}
+.performers-heading p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #1E0A53;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.performers-area{
+    border: 4px dashed #44D7B1;
+    border-radius: 80px;
+    padding: 34px;
+}
+.performers-content{
+    background-color: #44D7B1;
+    border-radius: 60px;
+    padding: 150px 45px 100px;
+}
+.performers-area-two{
+    border: 4px dashed #FEC12D;
+}
+.performers-content-two{
+    background-color: #FEC12D;
+}
+.performers-area-three{
+    border: 4px dashed #8725FB;
+}
+.performers-content-three{
+    background-color: #8725FB;
+}
+.performers-content-image{
+    border-radius: 50%;
+    background-color: #80808021;
+    width: 280px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -330px;
+    margin-bottom: 50px;
+}
+.position-3rd-tag img{
+    position: absolute;
+    top: 0px;
+    right: -29px;
+}
+.performers-content > h5{
+    margin-bottom: 30px;
+}
+.performers-content-info {
+    display: flex;
+    text-align: left;
+}
+.performers-content-info-text,.performers-content-info-text{
+    width: 50%;
+}
+.performers-content-info-text h5{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+    margin-top: 25px;
+
+}
+/* ready */
+.ready{
+    background-image: url('../images/ready-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 360px 0px 300px;
+}
+.ready-content h2{
+    color: #44D7B1;
+    width: 480px;
+    margin: 0px auto;
+}
+.blue{
+    color: #8725FB;
+}
+/* footer */
+.footer{
+    background-image: url('../images/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+    margin-top: -70px;
+    padding-top: 130px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-content p{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 20px;
+    color: #FEC12D;
+    margin-top: 17px;
+}
+.footer-links {
+    padding-top: 30px;
+    gap: 20px;
+}
+.footer-social {
+    gap: 12px;
+    padding-top: 50px;
+}
+.footer-social i{
+    color: #1E0A53;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px 8px;
+    font-size: 24px;
+}
+.facebook{
+    padding: 8px 13px !important;
+}
+.footer-contact {
+    gap: 50px;
+    padding: 30px 0px;
+}
+.footer-contact-icons p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: white !important;
+}
+.footer-contact-icons i {
+    color: white;
+    font-size: 28px;
+    margin-right: 12px;
+}
+.border-area {
+    border-top: 2px solid #392372;
+}
+.border-area-content {
+    padding: 13px 0px;
+}
+.footer .border-area-content p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #CDBCF8;
+    font-size: 20px;
+}
+/* 1600 */
+@media screen and (max-width: 1600px){
+    /* header */
+    .container-width {
+        padding: 0px 85px;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+    h4 {
+        font-size: 42px;
+    }
+    button {
+        font-size: 20px !important;
+        padding: 7px 23px !important;
+    }
+    .logo {
+        width: 85%;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .header-list .nav-link {
+        font-size: 18px;
+        margin: 0px 8px;
+    }
+    .header-list {
+        gap: 30px;
+    }
+    /* main */
+    .main {
+        padding-bottom: 214px;
+    }
+    .main-content {
+        padding-top: 322px;
+    }
+    .main-content p {
+        font-size: 20px;
+        width: 620px;
+    }
+    .btn-yellow {
+        margin-top: 50px !important;
+        padding: 9px 35px !important;
+    }
+    .section-small-padding {
+        padding-top: 255px;
+    }
+    .main-two-content p {
+        font-size: 21px;
+        margin-top: 18px;
+        width: 300px;
+        max-width: 100%;
+    }
+    .main-two-bg {
+        padding: 40px 60px;
+        padding-right: 0px;
+    }
+    .main-two-content-separate h6 {
+        font-size: 22px;
+        padding-top: 35px;
+        padding-bottom: 8px;
+    }
+    .main-two-content-separate p {
+        font-size: 20px;
+        width: 195px;
+    }
+    .col-padding {
+        padding-right: 35px;
+    }
+    /* about */
+    .about {
+        margin-top: -135px;
+        padding-bottom: 95px;
+        background-size: cover;
+    }
+    .about-star-image img {
+        top: -60px;
+        right: 122px;
+        width: 17%;
+    }
+    .about-content p {
+        font-size: 22px;
+        margin-top: 35px;
+        width: 588px;
+        max-width: 100%;
+    }
+    .btn-blue {
+        margin-top: 45px !important;
+        padding: 8px 35px !important;
+    }
+    .about-lines img {
+        bottom: 27px;
+        right: 0px;
+        width: 28%;
+    }
+    .about-circle img {
+        bottom: -51px;
+        width: 10%;
+    }
+    .about-triangles img {
+        bottom: -150px;
+        width: 20%;
+    }
+    /* practice */
+    .practice {
+        padding-top: 150px;
+        padding-bottom: 140px;
+        background-size: cover;
+    }
+    .practice {
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+    .practice-back-heading h1 {
+        font-size: 128px;
+        top: 78px;
+    }
+    .practice-italic {
+        font-size: 23px !important;
+        margin: 30px 0px;
+    }
+    .practice-content p {
+        font-size: 23px;
+    }
+    /* performers */
+    .performers {
+        background-image: url(../images/performers-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 165px 0px 65px;
+        margin-top: -70px;
+    }
+    .performers-heading p {
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 150px;
+    }
+    .performers-content-image {
+        width: 210px;
+        margin-top: -330px;
+        margin-bottom: 50px;
+    }
+    .position-3rd-tag img {
+        width: 45%;
+    }
+    .performers-area {
+        padding: 20px;
+    }
+    .performers-content {
+        padding: 150px 30px 100px;
+    }
+    h5 {
+        font-size: 27px;
+    }
+    .performers-content-info-text h5 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .performers-content-image {
+        width: 190px;
+        margin-top: -271px;
+        margin-bottom: 40px;
+    }
+    /* ready */
+    .ready {
+        padding: 260px 0px 230px;
+    }
+    .ready-content h2 {
+        width: 400px;
+    }
+    h2 {
+        font-size: 61px;
+    }
+    /* footer */
+    .footer{
+        background-size: cover;
+    }
+    .footer .border-area-content p {
+        font-size: 19px;
+    }
+}
+/* 1400 */
+@media screen and (max-width: 1400px){
+    .arhamsoft-logo {
+        width: 40px;
+    }
+    .container-width {
+        padding: 0px 70px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h4 {
+        font-size: 37px;
+    }
+    button {
+        font-size: 18px !important;
+        padding: 6px 20px !important;
+    }
+    /* header */
+    .logo {
+        width: 75%;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .header-list .nav-link {
+        font-size: 17px;
+        margin: 0px 1px;
+    }
+    /* main */
+    .main {
+        padding-bottom: 184px;
+    }
+    .main-content p {
+        font-size: 17px;
+    }
+    .btn-yellow {
+        margin-top: 45px !important;
+    }
+    .main-two-bg {
+        padding: 30px 45px;
+        padding-right: 0px;
+    }
+    .main-two-content p {
+        font-size: 18px;
+        width: 260px;
+    }
+    .main-two-content-separate h6 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .main-two-content-separate p {
+        font-size: 18px;
+        width: 175px;
+    }
+    .section-small-padding {
+        padding-top: 220px;
+    }
+    .btn-yellow {
+        margin-top: 42px !important;
+    }
+    /* about */
+    .about {
+        margin-top: -120px;
+        padding-bottom: 95px;
+    }
+    .about-star-image img {
+        top: -45px;
+        right: 102px;
+        width: 16%;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    .about-content p {
+        font-size: 19px;
+        margin-top: 25px;
+        width: 518px;
+        max-width: 100%;
+    }
+    .btn-blue {
+        margin-top: 30px !important;
+    }
+    .about-lines img {
+        bottom: 30px;
+        width: 25%;
+    }
+    .about-circle img {
+        bottom: -55px;
+        width: 9%;
+    }
+    .about-triangles img {
+        bottom: -135px;
+        width: 17%;
+    }
+    /* practice */
+    .practice {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .practice-back-heading h1 {
+        font-size: 109px;
+    }
+    .practice-italic {
+        font-size: 22px !important;
+        margin: 25px 0px;
+    }
+    .practice-content p {
+        font-size: 21px;
+    }
+    /* performers */
+    .performers {
+        padding: 150px 0px 64px;
+        margin-top: -70px;
+    }
+    .performers-heading p {
+        font-size: 21px;
+        margin-top: 13px;
+        margin-bottom: 120px;
+    }
+    .performers-content-image {
+        width: 150px;
+        margin-top: -245px;
+        margin-bottom: 32px;
+    }
+    .performers-area {
+        padding: 16px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+    .performers-content {
+        padding: 150px 20px 100px;
+    }
+    .position-3rd-tag img {
+        width: 40%;
+        right: -11px;
+    }
+    /* ready */
+    .ready {
+        padding: 220px 0px 190px;
+    }
+    h2 {
+        font-size: 52px;
+    }
+    .ready-content h2 {
+        width: 350px;
+    }
+    /* footer */
+    .footer-logo.text-center img {
+        width: 25%;
+    }
+    .footer-content p {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+    .footer-links {
+        padding-top: 25px;
+        gap: 18px;
+    }
+    .app-store,.google-play{
+        width: 200px;
+    }
+    .footer-social {
+        gap: 12px;
+        padding-top: 40px;
+    }
+    .footer-contact-icons i {
+        font-size: 26px;
+    }
+    .footer-content p {
+        font-size: 16px;
+    }
+    .footer-contact {
+        gap: 40px;
+        padding: 22px 0px;
+    }
+    .footer .border-area-content p {
+        font-size: 16px;
+    }
+    .border-area-content {
+        padding: 9px 0px;
+    }
+}
+/* 1199 */
+@media screen and (max-width: 1199px){
+    .arhamsoft-logo {
+        width: 32px;
+    }
+    .container-width {
+        padding: 0px 40px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    h4 {
+        font-size: 32px;
+    }
+    button {
+        font-size: 16px !important;
+        padding: 6px 18px !important;
+    }
+    /* header */
+    .header-list .nav-link {
+        font-size: 13px;
+        margin: 0px 0px;
+    }
+    .logo {
+        width: 70%;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .header-list {
+        gap: 10px;
+    }
+    .header-buttons {
+        gap: 11px;
+    }
+    /* main */
+    .main {
+        padding-bottom: 134px;
+    }
+    .main-content {
+        padding-top: 228px;
+    }
+    .main-two-bg {
+        padding: 25px 40px;
+        border-radius: 40px;
+    }
+    .main-content p {
+        font-size: 14px;
+        width: 440px;
+    }
+    .btn-yellow {
+        margin-top: 35px !important;
+    }
+    .section-small-padding {
+        padding-top: 170px;
+    }
+    .main-two-content p {
+        font-size: 17px;
+        width: 200px;
+    }
+    .main-two-content-separate h6 {
+        font-size: 17px;
+        padding-top: 28px;
+    }
+    .main-two-content-separate p {
+        font-size: 15px;
+    }
+    /* about */
+    .about {
+        margin-top: -80px;
+        padding-bottom: 95px;
+    }
+    .about-star-image img {
+        top: -26px;
+        right: 82px;
+        width: 14%;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    .about-content p {
+        font-size: 17px;
+        margin-top: 22px;
+        width: 418px;
+    }
+    .btn-blue {
+        margin-top: 20px !important;
+    }
+    .about-lines img {
+        bottom: 12px;
+        width: 24%;
+    }
+    .about-circle img {
+        bottom: -50px;
+        width: 8%;
+        right: 80px;
+    }
+    .about-triangles img {
+        bottom: -120px;
+        width: 15%;
+    }
+    /* practice */
+    .practice-back-heading h1 {
+        font-size: 90px;
+    }
+    .practice-italic {
+        font-size: 21px !important;
+        margin: 22px 0px;
+    }
+    .practice-content p {
+        font-size: 19px;
+    }
+    .practice-star-image img {
+        width: 10%;
+        bottom: 100px;
+    }
+    .performers-heading p {
+        font-size: 19px;
+        margin-top: 12px;
+        margin-bottom: 105px;
+    }
+    .performers-content-image {
+        width: 140px;
+        margin-top: -238px;
+        margin-bottom: 28px;
+    }
+    .performers-area {
+        padding: 12px;
+    }
+    h5 {
+        font-size: 21px;
+    }
+    .performers-content {
+        padding: 150px 20px 50px;
+    }
+    .performers-content-info-text h5 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* ready */
+    .ready {
+        padding: 185px 0px 185px;
+    }
+    .ready-content h2 {
+        width: 270px;
+    }
+    h2 {
+        font-size: 37px;
+    }
+    /* footer */
+    .footer {
+        padding-top: 110px;
+    }
+    .app-store, .google-play {
+        width: 170px;
+    }
+    .footer-links {
+        padding-top: 20px;
+        gap: 16px;
+    }
+}
+/* 991 */
+@media screen and (max-width: 991px){
+    h1 {
+        font-size: 42px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    /* header */
+    .toggler-icon {
+        font-size: 30px;
+        color: white;
+        border: unset;
+        padding: 0px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../images/navbar-toggle-image.png');
+        background-repeat: no-repeat;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: unset !important;
+        border: unset;
+        padding: 0px;
+    }
+    .navbar-light .navbar-toggler:focus {
+        border: unset;
+        box-shadow: unset;
+    }
+    .header-list{
+        display: unset;
+        background-color: #3f91c8;
+        padding: 20px;
+    }
+    .btn-yellow {
+        margin-top: 30px !important;
+        padding: 8px 27px !important;
+    }
+    /* main */
+    .main {
+        padding-bottom: 96px;
+    }
+    .main-content {
+        padding-top: 178px;
+    }
+    .section-small-padding {
+        padding-top: 140px;
+    }
+    .main-two-content p {
+        font-size: 15px;
+        width: 130px;
+        margin-top: 13px;
+    }
+    .main-two-bg {
+        padding: 15px 15px;
+    }
+    .main-two-content-separate p {
+        font-size: 12px;
+    }
+    .main-two-content-separate h6 {
+        font-size: 13px;
+        padding-top: 22px;
+        margin-bottom: 2px;
+    }
+    /* about */
+    .about {
+        margin-top: -60px;
+        padding-bottom: 95px;
+    }
+    .about-star-image img {
+        top: -18px;
+        right: 66px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    .about-content p {
+        font-size: 15px;
+        margin-top: 10px;
+        width: 348px;
+    }
+    .btn-blue {
+        margin-top: 8px !important;
+        padding: 7px 26px !important;
+    }
+    .about-lines img {
+        bottom: 14px;
+        width: 21%;
+        right: 22px;
+    }
+    .about-circle img {
+        bottom: -30px;
+    }
+    .about-triangles img {
+        bottom: -85px;
+    }
+    /* practice */
+    .practice{
+        margin-top: -60px;
+        padding-top: 122px;
+        padding-bottom: 70px;
+    }
+    .practice-back-heading h1 {
+        font-size: 70px;
+    }
+    .practice-italic {
+        font-size: 19px !important;
+        margin: 15px 0px;
+    }
+    .practice-content p {
+        font-size: 17px;
+    }
+    .practice-star-image img {
+        width: 9%;
+        bottom: 90px;
+    }
+    /* performers */
+    .performers {
+        padding: 110px 0px 64px;
+        margin-top: -70px;
+    }
+    .performers-heading p {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 105px;
+    }
+    .performers-area {
+        padding: 12px;
+    }
+    .col-margin {
+        margin-bottom: 100px;
+    }
+    /* ready */
+    .ready {
+        padding: 136px 0px 150px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    /* footer */
+    .footer {
+        padding-top: 90px;
+    }
+    .footer-links {
+        padding-top: 11px;
+        gap: 13px;
+    }
+    .app-store, .google-play {
+        width: 160px;
+    }
+    .footer-social {
+        padding-top: 27px;
+    }
+    .footer-contact {
+        gap: 18px;
+        padding: 16px 0px;
+    }
+    .footer-contact-icons i {
+        font-size: 20px;
+        margin-right: 9px;
+    }
+    .footer-content p {
+        font-size: 13px;
+    }
+    .footer .border-area-content p {
+        font-size: 14px;
+    }
+    .border-area-content {
+        padding: 6px 0px;
+    }
+}
+/* 767 */
+@media screen and (max-width: 767px){
+    .container-width {
+        padding: 0px 22px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    /* header */
+    .header .container-width{
+        padding: 0px 40px;
+    }
+    /* main */
+    .main {
+        padding-bottom: 96px;
+        background-color: #3f91c8;
+    }
+    .main-content {
+        padding-top: 118px;
+    }
+    .btn-yellow {
+        margin-top: 22px !important;
+        padding: 7px 23px !important;
+    }
+    .section-small-padding {
+        padding-top: 30px;
+    }
+    .main-two-content {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .main-two-content p {
+        font-size: 15px;
+        width: 50% !important;
+        margin: 0px auto;
+        margin-top: 13px;
+    }
+    .main-two-content {
+        border-right: unset;
+    }
+    .main-two-bg{
+        border: 7px solid white;
+    }
+    .main-icon {
+        width: 20%;
+        text-align: center;
+        margin: 20px auto 0px;
+    }
+    .main-two-content-separate h6 {
+        font-size: 20px;
+    }
+    .main-two-content-separate p {
+        font-size: 15px;
+        margin: 0px auto;
+    }
+    .main-two-content-separate {
+        text-align: center;
+    }
+    /* about */
+    .about {
+        margin-top: 0px;
+        padding-bottom: 95px;
+        background-color: #fec430;
+    }
+    .about-star-image img {
+        top: -85px;
+        right: 92px;
+    }
+    .about-content {
+        position: relative;
+        text-align: center;
+        margin: 12px auto 0px;
+    }
+    .about-lines img {
+        bottom: 12px;
+        width: 25%;
+        right: -74px;
+    }
+    .about-triangles img {
+        bottom: -47px;
+    }
+    .about-circle img {
+        bottom: -38px;
+        right: 0px;
+    }
+    /* practice */
+    .practice {
+        margin-top: -50px;
+        padding-top: 102px;
+        padding-bottom: 110px;
+    }
+    .practice-back-heading h1 {
+        font-size: 52px;
+        top: 70px;
+    }
+    .practice-content {
+        width: 433px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .practice-inner-image {
+        margin-top: 40px;
+    }
+    .practice-star-image img {
+        bottom: 62px;
+    }
+    /* performers */
+    .performers-area {
+        padding: 18px;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .performers-content {
+        padding: 150px 45px 50px;
+    }
+    /* ready */
+    .ready {
+        padding: 95px 0px 135px;
+    }
+    .ready-content h2 {
+        width: 210px;
+        font-size: 28px;
+    }
+    /* footer */
+    .footer-links {
+        padding-top: 5px;
+        gap: 11px;
+    }
+    .app-store, .google-play {
+        width: 130px;
+    }
+    .footer-contact {
+        gap: 0px;
+        padding: 10px 0px;
+        flex-flow: column;
+    }
+    .border-area-content {
+        padding: 3px 0px;
+    }
+    .footer .border-area-content p {
+        font-size: 12px;
+    }
+}
+/* 575 */
+@media screen and (max-width: 575px){
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    /* header */
+    .logo {
+        width: 130px;
+    }
+    .toggler-icon {
+        font-size: 24px;
+    }
+    .main-content {
+        padding-top: 148px;
+    }
+    button {
+        font-size: 14px !important;
+        padding: 5px 17px !important;
+    }
+    .btn-yellow {
+        margin-top: 22px !important;
+        padding: 6px 18px !important;
+    }
+    /* main */
+    .main-two-content p {
+        width: 100% !important;
+    }
+    /* about */
+    .about-content p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .about-lines img {
+        width: 24%;
+        right: -10px;
+    }
+    .about-triangles img {
+        bottom: -40px;
+    }
+    .about-star-image img {
+        top: -75px;
+        right: 50px;
+    }
+    .about-circle img {
+        bottom: -35px;
+        right: 35px;
+    }
+    /* practice */
+    .practice-italic {
+        font-size: 16px !important;
+        margin: 12px 0px;
+    }
+    .practice-back-heading h1 {
+        font-size: 28px;
+    }
+    .practice-content p {
+        font-size: 16px;
+    }
+    .performers-heading p {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 95px;
+    }
+    /* performers */
+    .performers {
+        padding: 110px 0px 34px;
+    }
+    .performers-area {
+        padding: 12px;
+        width: 100%;
+        border-radius: 50px;
+    }
+    .performers-content {
+        border-radius: 38px;
+        padding: 150px 45px 25px;
+    }
+    .performers-content > h5 {
+        margin-bottom: 20px;
+    }
+    /* ready */
+    .ready {
+        padding: 48px 0px 101px;
+    }
+    .ready-content h2 {
+        width: 160px;
+        font-size: 21px;
+    }
+    /* footer */
+    .footer {
+        padding-top: 70px;
+    }
+    .footer-logo.text-center img {
+        width: 65%;
+    }
+    .footer-content p {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .app-store, .google-play {
+        width: 110px;
+    }
+    .footer-social i {
+        font-size: 21px;
+    }
+    .footer .border-area-content p {
+        font-size: 10px;
+    }
+}
+
